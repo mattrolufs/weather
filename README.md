@@ -23,6 +23,6 @@ There are refactoring opportunities in the UI screen layer, with some items pote
 
 The UI itself could be more inspired, perhaps following other weather apps for inspiration.
 
-## Link to video of the app in action
+## Link to the Andriod APK and videos of the app in action
 
 https://drive.google.com/drive/folders/1O7NInOt2M5GlQ_adydbbIOInjxBxtfb4?usp=sharing
