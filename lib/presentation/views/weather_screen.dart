@@ -39,7 +39,7 @@ class _WeatherScreenState extends ConsumerState<WeatherScreen> {
       appBar: AppBar(
         title: Text("Weather Today"),
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
