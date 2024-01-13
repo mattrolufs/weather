@@ -1,16 +1,28 @@
-# weather
+# Flutter Weather App
 
-A new Flutter project.
+A Flutter weather application attempting to follow Clean Architecture patterns and abstractions at the core. The Presentation layer is following a general MVVM presentation architecture, with the view_models dependent on Riverpod as the reactive state management. 
 
-## Getting Started
+## Setup Instructions for running the app
 
-This project is a starting point for a Flutter application.
+Clone this Github repo to your local development environment.
+Open the project in your VS Code or Android Studio IDE.
+In Terminal, run the following command to retrieve all pubspec dependencies:
 
-A few resources to get you started if this is your first Flutter project:
+flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app is configured to run in iOS, Android platforms.  
+In Terminal, run the following command and when prompted, select the number associated with the desired platform:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter run
+
+## Retrospective
+
+I was not able to meet the deadline with Unit Testing and Widget Testing in place, as well as proper error handling.
+
+There are refactoring opportunities in the UI screen layer, with some items potentially being moved out to their own classes as well as the potential for a location datatsource abstraction.
+
+The UI itself could be more inspired, perhaps following other weather apps for inspiration.
+
+## Link to video of the app in action
+
+https://drive.google.com/drive/folders/1O7NInOt2M5GlQ_adydbbIOInjxBxtfb4?usp=sharing
